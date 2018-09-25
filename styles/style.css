@@ -51,20 +51,38 @@ table {
   font-size: 22px;
   font-family: "Montserrat", sans-serif;
 }
+body {
+	width:700px;
+	margin: 0 auto;
+	font-family:'PT Sans-Caption', sans-serif;
+	padding-top: 48px;
+	letter-spacing: 0,9px;
+
+	}
 h1 {
-  font-size:50px;
-color:purple;
-font-family: "Montserrat", sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	font-size: 41px;
 }
 h2{
   font-size: 35px;
   font-family: "Montserrat", sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+h3{
+	font-size:25px;
+	font-family: "Montserrat", sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 p {
   color:#233A4B;
-font-size: 22px;
-font-family: "Montserrat", sans-serif;
-text-indent: 12em;
+	font-size: 22px;
+	margin-top: 1,5em;
+	margin-bottom: 2em;
+	font-family:'PT Sans-Caption', sans-serif;
 
 }
 li {
@@ -72,4 +90,12 @@ li {
   font-weight: bolder;
   font-size: 22px;
   font-family: "Montserrat", sans-serif;
+	margin-top: 1,5em;
+	margin-bottom: 2em;
+}
+body {
+  background-image: url(../dc-online-media-mockup.jpg);
+  background-size: 800px 20624px;
+  background-position: top center;
+  background-repeat: no-repeat;
 }
